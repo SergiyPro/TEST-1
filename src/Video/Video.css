@@ -1,0 +1,31 @@
+.video {
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    margin: 50px 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.imgVideo{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+
+.video .like{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.video .like button{
+    border: 1px solid black;
+}
+.video h2{
+    text-align: left;
+}
+.video h3{
+    text-align: left;
+}
